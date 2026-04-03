@@ -9,7 +9,6 @@ The project consists of a **Browser Userscript** to download the chats as Markdo
 - **Automated Chat Extraction:** A Tampermonkey/Violentmonkey userscript that seamlessly downloads your Grok tasks directly into Markdown format.
 - **Smart Date Extraction:** Intelligently extracts dates written within the actual Markdown text to chronologically sort reports.
 - **Fail-safe Filename Parsing:** Automatically falls back to parsing dates directly from filenames (e.g., `Grok_Task_YYYY-MM-DDTHH-MM-SS.md`).
-- **19th-Century Academic Aesthetic:** Utilizes the `xhtml2pdf` library to apply a vintage parchment background color, deep sepia typefaces, and classic layouts directly to the output PDF.
 - **Auto-Dependency Setup:** The Python script automatically checks for and installs any missing required packages (`markdown` and `xhtml2pdf`).
 
 ## Step 1: Downloading Tasks (Userscript)
